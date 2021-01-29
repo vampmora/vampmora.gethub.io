@@ -1,0 +1,162 @@
+body {
+color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  /*this to make my name and programer word close little to each others  and its up to me
+  so i can let it as it was (margain-top :50px;) or to do it as i did now*/
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  color: #d3e0ea;
+  width: 8%;  /* i did it with % not as i did it be4 with px because it will be better if i change the size of the page */
+  margin: 60px auto 60px auto;
+}
+
+.top-container {
+  background-color: #cae4db;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile-img {
+  width: 80px;
+  padding-top: 20px;
+}
+
+
+/* images in the middle container*/
+/* ----*/
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  /* margin: auto;    becuse i did the width 50% so it became hafe of the bage and it went down so with margin auto it will make it in the center (because it will
+     make it auto from left and side)   BUT after that i will remove it and make it in the 4 sides to give it space up and down too  */
+  text-align: left;
+  line-height: 2;
+}
+
+.middle-container {
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+padding: 50px 0 20px;
+
+
+}
+
+/* the images in all the site */
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.coding-img {
+  width: 25%;
+  float: left;
+  /* this to make the text move from down the picture to float beside it so the pic will float on the left */
+  margin-right: 30px;
+  /* i did it with (padding-right: 30px;) and it give me the same results */
+}
+
+.cooking-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-p {
+
+  margin: 50px auto 50px auto;
+}
+/* the button contcat me */
+.btn {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 14px;
+   line-height: 14px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   width: 185px;
+   font-size: 20px;
+   font-weight: 900;
+   padding: 24px;
+   -webkit-box-shadow: 1px 1px 6px 0 #000000;
+   -moz-box-shadow: 1px 1px 6px 0 #000000;
+   box-shadow: 1px 1px 6px 0 #000000;
+   text-shadow: 1px 1px 6px #000000;
+   border: solid #762C2C 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #139999 1px;
+   background: #167D81;
+   background-image: -webkit-linear-gradient(top, #167D81, #33DFDF);
+   background-image: -moz-linear-gradient(top, #167D81, #33DFDF);
+   background-image: -ms-linear-gradient(top, #167D81, #33DFDF);
+   background-image: -o-linear-gradient(top, #167D81, #33DFDF);
+   background-image: -webkit-gradient(to bottom, #167D81, #33DFDF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+/* the colors for the links at the bottom of the page*/
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#f6f5f5;
+}
+.copy-right {
+  color: #EAF6F6;
+  font-size: 0.82rem;
+  padding: 20px 0;
+}
